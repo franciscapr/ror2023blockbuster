@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+.navbar-brand img {
+    width: 150px;
+  }
+  
+.navbar-nav .nav-link {
+    font-size: 35px;
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+  .movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+  .card-body {
+    background-color: rgb(44, 124, 243);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;;
+  }
+  
+  .card-title {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  
+  .custom-button.blue-bg {
+    background-color: #201e1e9a;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+  }
+  .custom-button.blue-bg:hover{
+    background-color: #cc0000;
+  }
+  
+  .icon-container {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    color:  rgb(0, 31, 77);
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.centro{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:  rgb(0, 31, 77);
+}

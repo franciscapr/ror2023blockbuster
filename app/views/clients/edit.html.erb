@@ -1,0 +1,16 @@
+<div class="centro">
+<h1>Editar Usuario</h1></div>
+<div class="card" style="width: 18rem;">
+  <div class="icon-container">
+    <i class="fa-solid fa-user fa-3x"></i>
+  </div>
+  <div class="card-body">
+    <%= render "form", client: @client %>
+
+    <br>
+
+    <div class="button-container">
+      <%= link_to "Volver a usuarios", clients_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>

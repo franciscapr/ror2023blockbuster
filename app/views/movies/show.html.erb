@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<div>
+  <h1><%= @movie.name %></h1>
+  <%= image_tag @image_url, alt: "Movie Image", width: 300, height: 300 %>
+</div>
+
+<div>
+  <%= link_to "Editar la pelicula", edit_movie_path(@movie), class: "btn btn-primary custom-button"  %> 
+  <%= link_to "Volver a peliculas", movies_path, class: "btn btn-primary custom-button"  %>
+
+  <%= button_to "Eliminar pelicula", @movie, method: :delete, class: "btn btn-danger"  %>
+</div>

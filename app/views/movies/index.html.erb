@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Peliculas</h1>
+  <%= link_to "Nueva pelicula", new_movie_path, class: "btn btn-primary custom-button blue-bg" %>
+  <div id="movies">
+    <div class="row">
+      <% @movies.each do |movie| %>
+        <%= render movie %>
+      <% end %>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,9 @@
+<div class="col-4 py-2">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><%= movie.name %></h5>
+      <%= image_tag Faker::LoremFlickr.image(size: "300x300", search_terms: ['movies']), alt: "Movie Image", class: "img-fluid movie-image" %>
+      <%= link_to "Ver esta película", movie, class: "btn btn-primary custom-button blue-bg" %>
+    </div>
+  </div>
+</div>

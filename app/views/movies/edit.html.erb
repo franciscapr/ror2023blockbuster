@@ -1,0 +1,10 @@
+<h1>Editar la pelicula</h1>
+
+<%= render "form", movie: @movie %>
+
+<br>
+
+<div>
+  <%= link_to "Ver esta pelicula", @movie, class: "btn btn-primary"  %> 
+  <%= link_to "Volver a peliculas", movies_path, class: "btn btn-primary"  %>
+</div>
